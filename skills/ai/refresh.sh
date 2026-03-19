@@ -3,7 +3,7 @@
 # Runs weekly via system crontab. Logs to ~/.claude/skills/ai/refresh.log
 
 LOG="$HOME/.claude/skills/ai/refresh.log"
-SKILL="$HOME/.claude/skills/ai/mental-model.md"
+SKILL="$HOME/.claude/skills/ai/ai-mental-model-evaluator.md"
 SOURCES="$HOME/.claude/skills/ai/sources.md"
 
 echo "[$(date '+%Y-%m-%d %H:%M')] Starting skill refresh..." >> "$LOG"
